@@ -1,10 +1,19 @@
-.{
+*{
     padding: 0;
     margin: 0;
 }
+.ab{
+    text-align-last: center;
+    font-size: 60px;
+}
+
+.ac{
+    
+    display: flex;
+}
 section{
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 230px;
     margin-right: 100px;
 }
 section.h1{
@@ -18,11 +27,13 @@ section h2{
     align-items: start;
 }
 section .container .card-group-1,.card-group-2,.card-group-3{
-    display: flex;
-    flex-direction: row;
+  
 }
 .card{
     display: flex;
     flex-direction: row;
     max-width: 500px;
+}
+.bamo{
+    display: flex;
 }
